@@ -7,5 +7,5 @@ router.post('/login', checkUser ,login)
 router.post('/register', register)
 router.post('/logOut', logOut)
 
-
+console.log(1)
 module.exports = router
