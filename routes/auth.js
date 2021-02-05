@@ -7,5 +7,7 @@ router.post('/login', checkUser ,login)
 router.post('/register', register)
 router.post('/logOut', logOut)
 
+router.post('/forgotPassword', (req, res) => {})
+
 
 module.exports = router
